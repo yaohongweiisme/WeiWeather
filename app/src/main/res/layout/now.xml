@@ -8,7 +8,6 @@
     <FrameLayout
     android:layout_width="match_parent"
     android:id="@+id/titleLayout"
-    android:fitsSystemWindows="true"
     android:layout_height="70dp">
         <Button
             android:id="@+id/navBtn"
@@ -34,7 +33,13 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:orientation="vertical">
-
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/showOnePlace"
+            android:layout_gravity="center_horizontal"
+            android:textSize="60sp"
+            android:textColor="#fff"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
