@@ -11,7 +11,7 @@ class WeiWeatherApplication:Application() {
         @SuppressLint("StaticFieldLeak")
         lateinit var context: Context
         fun String.showToast(duration:Int=Toast.LENGTH_SHORT) {
-            Toast.makeText(WeiWeatherApplication.context,this,duration).show( )
+            Toast.makeText(WeiWeatherApplication.context,this,duration).show()
         }
     }
 
